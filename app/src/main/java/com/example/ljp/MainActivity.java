@@ -14,7 +14,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         buttonHorizontal = findViewById(R.id.buttonHorizontal);
+
         buttonHorizontal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
